@@ -1,0 +1,92 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "TP Radar Doppler MDU1130 - Caractérisation des antennes",
+    "section": "",
+    "text": "Preface\nCe document repose en partie sur des formations organisées à l’IUT de Ville-d’Avray pour la Licence Professionnelle Mesures Hyperfréquences et Radiocommunications (LP MHR), et au Centre de Formation de la Défense dans le cadre d’une initiation radar.\nMots-clés",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#auteur",
+    "href": "index.html#auteur",
+    "title": "TP Radar Doppler MDU1130 - Caractérisation des antennes",
+    "section": "Auteur",
+    "text": "Auteur\nFranck Daout est enseignant-chercheur à l’Université Paris Nanterre, à l’IUT de Ville-d’Avray. Il est responsable de la Licence Professionnelle Mesures Hyperfréquences et Radiocommunications.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#conditions-dutilisation",
+    "href": "index.html#conditions-dutilisation",
+    "title": "TP Radar Doppler MDU1130 - Caractérisation des antennes",
+    "section": "Conditions d’utilisation",
+    "text": "Conditions d’utilisation\n Ce travail est soumis à la licence Creative Commons Attribution 4.0 International License.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "diagramme.html",
+    "href": "diagramme.html",
+    "title": "Mesure du Diagramme d’antenne de la tête MDU1130",
+    "section": "",
+    "text": "Présentation de l’activité\nL’antenne est le dispositif qui assure la transition entre la ligne de propagation et l’espace libre dans lequel les ondes vont se propager, et inversement.\nLe diagramme de rayonnement de l’antenne donne la répartition dans l’espace de l’énergie rayonnée ou reçue par l’antenne. Il peut donc être défini par le rapport :\n\\[\nr(\\theta)=\\frac{P_{r}(\\theta)}{\\mathbf{max}(P_{r})}\n\\tag{1}\\]\nOu \\(P_r\\) est la puissance mesurée en sortie de l’antenne utilisée en réception et \\(\\theta\\) l’angle permettant de repérer l’orientation de l’antenne. Généralement l’angle \\(\\theta\\) = 0° correspond à \\(P_r(\\theta = 0)= \\mathbf{max}(P_{r})\\).\nCe diagramme est le plus souvent exprimé en dBi :\n\\[\nr_{dBi}(\\theta)=10\\log_{10}(r(\\theta))\n\\tag{2}\\]\nIl y a plusieurs représentations graphiques possibles. Le diagramme de rayonnement peut être représenté en coordonnées polaires ou en coordonnées cartésiennes. Le diagramme d’antenne (Figure 1) est généralement représenté dans deux plans orthogonaux liés à la structure de l’onde (onde TEM) :",
+    "crumbs": [
+      "Mesure du Diagramme d'antenne de la tête MDU1130"
+    ]
+  },
+  {
+    "objectID": "diagramme.html#présentation-de-lactivité",
+    "href": "diagramme.html#présentation-de-lactivité",
+    "title": "Mesure du Diagramme d’antenne de la tête MDU1130",
+    "section": "",
+    "text": "Plan E.\nPlan H.\n\n\n\n\n\n\n\nFigure 1: Diagramme polaire du capteur MDU1130 (datasheet) - figure de gauche: plan E, figure de droite: plan H.",
+    "crumbs": [
+      "Mesure du Diagramme d'antenne de la tête MDU1130"
+    ]
+  },
+  {
+    "objectID": "diagramme.html#description-de-la-manipulation",
+    "href": "diagramme.html#description-de-la-manipulation",
+    "title": "Mesure du Diagramme d’antenne de la tête MDU1130",
+    "section": "Description de la manipulation",
+    "text": "Description de la manipulation\nLe diagramme d’antenne du radar est réalisé en tournant le module radar (Figure 2). Pour chaque position, il suffit de relever la puissance reçue sur le powermeter.\n\n\n\n\n\n\nFigure 2: Manipulation proposée - montage à adapter en fonction des appareils disponibles.\n\n\n\nLa distance entre l’antenne et le radar est déterminée à partir de l’expression du “champ lointain” :\n\\[\nR\\geq\\frac{2D^{2}}{^{\\lambda}}\n\\tag{3}\\]\nAvec \\(R\\) la distance entre les deux antennes et \\(D\\) la plus grande dimension des antennes (par exemple le diamètre du réflecteur dans le cas d’une parabole).\n\n\n\n\n\n\nApplication\n\n\n\n\n\n\nDéterminer la distance \\(R\\) minimum.\nFaire les mesures permettant de remplir le tableau suivant :\n\n\n\n\n\\(\\theta\\) (deg)\n0\n20\n40\n60\n80\n100\n120\n…\n…\n\n\n\n\n\\(P_r\\) (dBm)\n\n\n\n\n\n\n\n\n\n\n\n\nLa Figure 3 représente la mesure du diagramme de l’antenne du radar à la position \\(\\theta\\) = 60°.\n\n\n\n\n\n\nFigure 3: L’antenne du radar est à la position 60°.\n\n\n\n\nTracer le diagramme d’antenne (Figure 4).\n\n\n\n\n\n\n\nFigure 4: Diagramme d’antenne polaire - à compléter.\n\n\n\n\nRefaire la même manipulation en modifiant le plan de mesure.\nComparer vos résultats aux spécifications du constructeur.",
+    "crumbs": [
+      "Mesure du Diagramme d'antenne de la tête MDU1130"
+    ]
+  },
+  {
+    "objectID": "diagramme.html#complément",
+    "href": "diagramme.html#complément",
+    "title": "Mesure du Diagramme d’antenne de la tête MDU1130",
+    "section": "Complément",
+    "text": "Complément\nLa Figure 5 présente une autre démarche expérimentale qu’il est aussi possible d’adapter.\n\n\n\n\n\n\nFigure 5: Montage expérimental pour la caractérisation du diagramme de rayonnement - extrait de l’article “TP diagramme de rayonnement d’antenne.”",
+    "crumbs": [
+      "Mesure du Diagramme d'antenne de la tête MDU1130"
+    ]
+  },
+  {
+    "objectID": "distance.html",
+    "href": "distance.html",
+    "title": "Mesure de l’atténuation distance",
+    "section": "",
+    "text": "Présentation de l’activité\nNous allons évaluer la portée d’une liaison unidirectionnelle radiofréquence (opposée à une liaison bidirectionnelle RADAR). Ce calcul s’applique par exemple trivialement à une liaison wifi en remplaçant l’antenne “omnidirectionnelle” qui équipe un ordinateur portable par une antenne directive.\nLe bilan de liaison radiofréquence traduit la distribution de la puissance reçue \\(P_r\\) en fonction de la puissance émise \\(P_e\\) :\n\\[\nP_{r}=\\frac{P_{e}G_{e}G_{r}\\lambda^{2}}{(4\\pi R)^{2}}\n\\tag{1}\\]\nAvec \\(R\\) la distance entre les deux antennes, \\(G_e\\) le gain de l’antenne d’émission, \\(G_r\\) le gain du récepteur; \\(\\lambda\\) est la longueur d’onde et \\(R\\) la distance entre l’émetteur et le récepteur. L’Équation 1 est nommée l’équation de Friis.\nGénéralement, l’Équation 1 est exprimée sous sa forme logarithmétique :\n\\[\nP_r(dBm) = P_e(dBm) + G_e(dBi) + G_r(dBi) + 20\\log_{10}(\\lambda) - 20\\log_{10}(4\\pi) - 20\\log_{10}(R)\n\\tag{2}\\]\nLa puissance reçue par le récepteur \\(P_r\\) dépend de la distance émetteur-récepteur \\(R\\). La puissance reçue est inversement proportionnelle au carré de la distance parcourue, ce qui se traduit par :\n\\[\nP_{r}=\\frac{K}{R^{2}}\n\\tag{3}\\]\nÀ une distance de référence \\(R_0\\), l’Équation 3 entraîne :\n\\[\nP_0 = \\frac{K}{R_0^{2}}\n\\tag{4}\\]\navec \\(P_0\\) la puissance à la distance de référence.\nEn utilisant l’Équation 4, l’expression de \\(K\\) est obtenue. Injecté dans l’Équation 3, celle-ci devient :\n\\[\nP_{r}=P_{0}(\\frac{R_{0}}{R})^{2}\n\\tag{5}\\]\nL’Équation 5 exprimée en dB devient :\n\\[\nP_r(dBm) = P_0(dBm) + 20\\log_{10}(R_0) - 20\\log_{10}(R)\n\\tag{6}\\]\nEn représentant la variation de \\(P_r(dBm)\\) en fonction de \\(20\\log_{10}(R)\\), une droite est observée. De plus, une multiplication par 2 de la distance entraîne une perte de 6 dB et une multiplication par 10 une atténuation de 20 dB.",
+    "crumbs": [
+      "Mesure de l'atténuation distance"
+    ]
+  },
+  {
+    "objectID": "distance.html#description-de-la-manipulation",
+    "href": "distance.html#description-de-la-manipulation",
+    "title": "Mesure de l’atténuation distance",
+    "section": "Description de la manipulation",
+    "text": "Description de la manipulation\nL’atténuation distance du radar est réalisée en déplaçant le module radar (Figure 1). Pour chaque distance, il suffit de relever la puissance reçue sur le powermeter.\n\n\n\n\n\n\nFigure 1: Manipulation proposée - montage à adapter en fonction des appareils disponibles.\n\n\n\n\n\n\n\n\n\nApplication\n\n\n\n\n\n\nRéaliser les mesures permettant de remplir le tableau suivant.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR (m)\n0.2\n0.3\n0.4\n0.5\n0.6\n0.8\n1.0\n1.2\n1.4\n\n\n\n\n\\(P_r\\) (dBm)\n\n\n\n\n\n\n\n\n\n\n\n\n\nReprésenter la caractéristique \\(P_r(dBm)\\) en fonction de \\(20\\log_{10}(R)\\).\nConclure.",
+    "crumbs": [
+      "Mesure de l'atténuation distance"
+    ]
+  }
+]
